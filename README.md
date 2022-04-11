@@ -1,2 +1,2 @@
-# domestic_archivebox
-Project to test the Archivebox solution on an AKS cluster.
+# Domestic Archivebox
+Project to test the Archivebox solution on an private domestic cluster.
