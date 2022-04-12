@@ -1,0 +1,14 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+    - name: smartin
+      ssh_authorized_keys:
+        - key1
+      password_hash: $y$j9T$n6h8P2ik8tfoNUFBBoly00$7bnrMF8oFrB25Fc3NqigqEH/MI5YXIJwtCG/iEsns.2
+      home_dir: /home/smartin
+      no_create_home: true
+      groups:
+        - wheel
+        - plugdev
+      shell: /bin/bash
